@@ -1,0 +1,30 @@
+{
+    "name": "i-status-linux",
+    "version": "0.0.2",
+    "description": "Hardware util to bring up network interface, processor, memory and disk usage data, in JSON format, in realtime and of course, in LINUX based systems.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/netrevisanto/i-status-linux.git"
+    },
+    "keywords": [
+        "hardware",
+        "status",
+        "linux"
+    ],
+    "author": "Neto Trevisan <netrevisanto@gmail.com> (http://netrevisanto.com/)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/netrevisanto/i-status-linux/issues"
+    },
+    "homepage": "https://github.com/netrevisanto/i-status-linux",
+    "dependencies": {
+        "shelly": "0.0.3",
+        "colors": "^1.1.0",
+        "shelljs": "^0.5.0",
+        "extend": "^2.0.1"
+    }
+}
